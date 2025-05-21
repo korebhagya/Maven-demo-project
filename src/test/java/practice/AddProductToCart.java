@@ -28,7 +28,7 @@ public class AddProductToCart {
 	    WebElement ele=driver.findElement(By.xpath("//div[.='Sauce Labs Bike Light']"));
 		String productTobeAdded = ele.getText();
 		ele.click();
-		
+		// Add product to cart
 		
 		// Add product to cart
 		driver.findElement(By.id("add-to-cart")).click();
